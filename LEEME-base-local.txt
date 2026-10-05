@@ -1,0 +1,25 @@
+TECNOZONA - BASE DE DATOS LOCAL SQLITE
+
+ARCHIVOS
+- index.html: aplicación.
+- local_server.py: servidor local/API con SQLite incluida en Python.
+- Iniciar-TecnoZona.bat: abre TecnoZona y crea tecnozona.db automáticamente.
+- tecnozona.db: base local; aparecerá al iniciar por primera vez.
+
+USO
+1. Haz doble clic en Iniciar-TecnoZona.bat.
+2. Se abrirá http://127.0.0.1:8765 en el navegador.
+3. Deja abierta la ventana negra del servidor mientras usas TecnoZona.
+4. Cierra esa ventana o pulsa Ctrl+C para detener el servidor.
+
+MIGRAR DATOS DE LA PÁGINA QUE YA USAS
+1. Abre la página actual como archivo local (file:///...).
+2. En el panel lateral, pulsa Exportar respaldo y guarda el archivo JSON.
+3. Inicia TecnoZona con Iniciar-TecnoZona.bat.
+4. Inicia sesión y pulsa Importar respaldo para cargar el archivo JSON.
+
+La copia de respaldo incluye personal, permisos, órdenes, clientes y empresa.
+La base y sus respaldos automáticos quedan en esta carpeta. Detén el servidor antes de copiar tecnozona.db a otro lugar, para tener una copia adicional segura.
+
+Esta instalación solo escucha en esta computadora (127.0.0.1); no comparte datos por Internet ni por Wi-Fi. Para acceder desde otras computadoras se requiere otra configuración de red y seguridad.
+

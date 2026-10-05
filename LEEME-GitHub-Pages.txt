@@ -1,0 +1,15 @@
+TECNOZONA PARA GITHUB PAGES
+
+El paquete contiene únicamente index.html y .nojekyll. No subas tecnozona.db, respaldos JSON, ni datos de clientes.
+
+PUBLICAR
+1. Crea o abre un repositorio de GitHub.
+2. Sube index.html y .nojekyll a la raíz del repositorio.
+3. En el repositorio abre Settings > Pages.
+4. En Build and deployment, elige Deploy from a branch, selecciona la rama principal y /(root), y pulsa Save.
+5. GitHub mostrará la dirección del sitio en Pages cuando termine la publicación.
+
+LÍMITES DE ESTA VERSIÓN
+GitHub Pages publica archivos estáticos. No ejecuta el servidor local Python ni SQLite. En Pages, cada navegador guarda sus propios datos localmente; no se comparten órdenes entre usuarios o dispositivos. El código del sitio será visible a quien pueda abrir la página. Para datos compartidos y cuentas protegidas hace falta un servidor con API y base de datos.
+
+La base local se sigue usando en la carpeta original mediante Iniciar-TecnoZona.bat.
